@@ -1,0 +1,307 @@
+@font-face{
+    font-family: Titulo;
+    src:url(../fonts/ANODETONOONE.TTF);
+    
+}
+@font-face{
+
+  font-family: rock;
+  src: url(../fonts/RockSalt-Regular.ttf);
+}
+
+h1{
+    font-family: Titulo;
+    font-size: 40px;
+    color:#603A03;
+}
+
+body{
+    background-image: url(../imgs/fundo.jpg);
+   min-width: 500px;
+}
+
+#container{
+    min-width: 500px;
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fundoGame{
+    width: 100%;
+    height: 630px;
+    background-image: url(../imgs/fundo_game.jpg);
+    border-color:#FFF;
+    border-style: solid;
+}
+
+#inicio{
+    width: 50%;
+    height: 200px;
+    background-color: #FFF;
+    margin: 100px auto auto auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#inicio:hover{
+  cursor: pointer;
+}
+
+#jogador{
+    width: 30%;
+    min-width: 200px;
+    height: 66px;
+    position: absolute;
+    left: 8px;
+    top: 179px;
+    background-image: url(/imgs/apache.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#inimigo1{
+    width: 30%;
+    min-width: 168px;
+    height: 66px;
+    position: absolute;
+    left: 67%;
+    top: 253px;
+    background-image: url(/imgs/inimigo1.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+#inimigo2{
+    width: 30%;
+    min-width: 168px;
+    height: 90px;
+    position: absolute;
+    left: 72%;
+    top: 440px;
+    background-image: url(/imgs/inimigo2.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#amigo{
+    width: 5%;
+    height:51px;
+    position:absolute ;
+    left: 10px;
+    top: 464px;
+    background-image: url(/imgs/amigo.png);
+    background-size: 1100%;
+    background-repeat: no-repeat;
+}
+
+
+.anima1 {
+	background-image:url(../imgs/helicoptero.png);
+	animation:play .5s steps(2) infinite;
+}
+
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position:200%;}
+}
+
+
+@-webkit-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-o-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+
+.anima2 {
+    background-image:url(../imgs/inimigo1.png);
+    animation: play .5s steps(2) infinite;
+    
+}
+
+
+.anima3 {
+	background-image:url(../imgs/amigo.png);
+	animation:play2 .9s steps(12) infinite;
+	-webkit-animation: play2 .9s steps(12) infinite;
+       -moz-animation: play2 .9s steps(12) infinite;
+        -ms-animation: play2 .9s steps(12) infinite;
+         -o-animation: play2 .9s steps(12) infinite;
+}
+
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-520px;}
+}
+
+@-webkit-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-moz-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-ms-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+@-o-keyframes play2 {
+   from { background-position:    0px; }
+     to { background-position: -528px; }
+}
+
+#disparo{
+    width: 50px;
+    height: 8px;
+    position: absolute;
+    background-image: url(../imgs/disparo.png);
+}
+
+#explosao1 {
+	width:15px;
+	height:87px;
+	position:absolute;
+
+}
+
+#explosao2 {
+	width:15px;
+	height:87px;
+	position:absolute;
+	
+}
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
+.anima4 {
+	width:44px;
+	height:51px;
+	background-image:url(../imgs/amigo_morte.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(7) infinite;
+       -moz-animation: play3 .5s steps(7) infinite;
+        -ms-animation: play3 .5s steps(7) infinite;
+         -o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-308px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+h2 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#FFF
+}
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
+
+
+h3 {
+	font-family:Titulo;
+	font-size:20px;
+	color:#603A03;
+
+}
+
+#fim {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    	margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}
+
+#ranking{
+  margin: auto;
+  margin-top: 20px;
+  width: 500px; 
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+@keyframes ranking{
+  0%{color: #603A03;}
+  25%{color:rgb(221, 17, 17);}
+  50%{color:rgb(41, 221, 17);}
+  75%{color:rgb(112, 17, 221);}
+  100%{color:rgb(221, 17, 143);}
+}
+
+#jogadores, #pontuacao{
+  font-size: 20px;
+  margin-top: 10px;
+  color:rgb(216, 195, 7);
+  
+}
+
+#jogadores-nome, #jogadores-ponto{
+  font-family:rock;
+  color:rgb(216, 195, 7);
+  animation:ranking .20s steps(5) infinite;
+}
