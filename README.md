@@ -1,5 +1,5 @@
 
-<h1 align="center">Welcome project for autentication users
+<h1 align="center">Bem vindo ao projeto Jogo-resgate
 
 > 🦀 Projeto de de criação do jogo resgate. neste jogo fiz umas alterações do original integrando com o node e banco de dados mySQL, no qual ao iniciar a partida irá aparecer um ranking dos jogadores, e ao final da partida poderá colocar seu nome.
   
