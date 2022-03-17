@@ -1,19 +1,3 @@
-
-
-// function nome(){
-//     document.getElementById('inicio').style.display= 'block';
-//     document.getElementById('formulario').style.display = 'none';
-
-
-
-    
-//     if(document.getElementById('nome').value === ''){
-//         alert('Você não digitou o nome') 
-//         location.reload()
-//     }
-    
-// }
-
 function start(){
 
     
